@@ -28,6 +28,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{7970E45A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.AspNetCore.NestedRouting", "src\MR.AspNetCore.NestedRouting\MR.AspNetCore.NestedRouting.csproj", "{9A6D0A85-3DCE-4EC0-8FAB-D16F0B8E77A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{7EE64D25-81D1-4001-BEC7-A92C61CA5D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic", "samples\Basic\Basic.csproj", "{D7ED5194-CE54-47F8-9765-E987D98F669B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,12 +42,17 @@ Global
 		{9A6D0A85-3DCE-4EC0-8FAB-D16F0B8E77A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A6D0A85-3DCE-4EC0-8FAB-D16F0B8E77A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A6D0A85-3DCE-4EC0-8FAB-D16F0B8E77A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7ED5194-CE54-47F8-9765-E987D98F669B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7ED5194-CE54-47F8-9765-E987D98F669B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7ED5194-CE54-47F8-9765-E987D98F669B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7ED5194-CE54-47F8-9765-E987D98F669B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9A6D0A85-3DCE-4EC0-8FAB-D16F0B8E77A7} = {08D46BCF-89FB-45B9-955B-4797B30732B7}
+		{D7ED5194-CE54-47F8-9765-E987D98F669B} = {7EE64D25-81D1-4001-BEC7-A92C61CA5D0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08F94695-2E44-4DAA-BC67-63665EBEC191}
