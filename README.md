@@ -36,6 +36,16 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
+There is also a `ControllerNameAttribute` you can use to override controller names:
+
+```
+[ControllerName("bazzzzzz")]
+public class BazController : SomeBaseController
+{
+    ...
+}
+```
+
 ## MvcPack
 
 Using this together with [MvcPack](http://github.com/mrahhal/MR.AspNetCore.MvcPack) will give you a great way for organizing your controllers.
