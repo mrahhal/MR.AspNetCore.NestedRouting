@@ -24,7 +24,7 @@ namespace Microsoft.Extensions.DependencyInjection
 
 			builder.AddMvcOptions(options =>
 			{
-				options.Conventions.Add(new RoutingConvention(nestedRoutingOptions));
+				options.Conventions.Add(new NestedRoutingConvention(nestedRoutingOptions));
 			});
 
 			return builder;

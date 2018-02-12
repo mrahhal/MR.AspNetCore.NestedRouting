@@ -7,13 +7,13 @@ using MR.AspNetCore.NestedRouting.Internal;
 
 namespace MR.AspNetCore.NestedRouting
 {
-	public class RoutingConvention : IApplicationModelConvention
+	public class NestedRoutingConvention : IApplicationModelConvention
 	{
 		private const string BaseToken = "[base]";
 		private const string ControllerToken = "[controller]";
 		private readonly NestedRoutingOptions _options;
 
-		public RoutingConvention(
+		public NestedRoutingConvention(
 			NestedRoutingOptions options)
 		{
 			_options = options;
