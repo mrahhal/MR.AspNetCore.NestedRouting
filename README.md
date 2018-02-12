@@ -42,7 +42,6 @@ There is also a `ControllerNameAttribute` you can use to override controller nam
 [ControllerName("bazzzzzz")]
 public class BazController : SomeBaseController
 {
-    ...
 }
 ```
 
