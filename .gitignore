@@ -1,0 +1,9 @@
+*.suo
+*.user
+*.lock.json
+
+.vs/
+[Bb]in/
+[Oo]bj/
+/artifacts/
+/tools/
