@@ -36,6 +36,10 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
+## MvcPack
+
+Using this together with [MvcPack](http://github.com/mrahhal/MR.AspNetCore.MvcPack) will give you a great way for organizing your controllers.
+
 ## Samples
 
-- [`Basic`](/samples/Basic): implements nested routing in an Asp.Net Core app.
+- [`Basic`](/samples/Basic): implements nested routing in an Asp.Net Core app (has a swagger ui that you can open so as to inspect the routes).
