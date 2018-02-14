@@ -60,7 +60,10 @@ namespace MR.AspNetCore.NestedRouting
 
 		private string BuildBase(Type type, bool stripController)
 		{
-			Debug.Assert(type != null, "unexpected type == null");
+			if (type == null)
+			{
+				return string.Empty;
+			}
 
 			var template = string.Empty;
 			var @base = string.Empty;
