@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System.Collections.Generic;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.Extensions.Configuration;
@@ -29,7 +30,7 @@ namespace Basic
 
 				c.TagActionsBy(api =>
 				{
-					return ((ControllerActionDescriptor)api.ActionDescriptor).ControllerTypeInfo.Namespace;
+					return new List<string> { ((ControllerActionDescriptor)api.ActionDescriptor).ControllerTypeInfo.Namespace };
 				});
 			});
 
