@@ -1,15 +1,17 @@
-<Project>
+﻿<Project>
 
-  <Import Project="version.props" />
+  <Import Project="build\version.props" />
 
   <PropertyGroup Label="Build">
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <NoWarn>$(NoWarn);1591;1587</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Label="Package">
     <Product>MR.AspNetCore.NestedRouting</Product>
+    <RepositoryUrl>https://github.com/mrahhal/MR.AspNetCore.NestedRouting</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot>
     <Authors>Mohammad Rahhal @mrahhal</Authors>
     <PackageProjectUrl>https://github.com/mrahhal/MR.AspNetCore.NestedRouting</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/mrahhal/MR.AspNetCore.NestedRouting/blob/master/LICENSE.txt</PackageLicenseUrl>

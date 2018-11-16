@@ -20,18 +20,19 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{7970E45A-5789-4A3E-9E00-3B38258780D9}"
 	ProjectSection(SolutionItems) = preProject
 		build.cake = build.cake
-		build\common.props = build\common.props
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
 		build\index.cake = build\index.cake
 		build\util.cake = build\util.cake
 		build\version.cake = build\version.cake
 		build\version.props = build\version.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.AspNetCore.NestedRouting", "src\MR.AspNetCore.NestedRouting\MR.AspNetCore.NestedRouting.csproj", "{9A6D0A85-3DCE-4EC0-8FAB-D16F0B8E77A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MR.AspNetCore.NestedRouting", "src\MR.AspNetCore.NestedRouting\MR.AspNetCore.NestedRouting.csproj", "{9A6D0A85-3DCE-4EC0-8FAB-D16F0B8E77A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{7EE64D25-81D1-4001-BEC7-A92C61CA5D0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic", "samples\Basic\Basic.csproj", "{D7ED5194-CE54-47F8-9765-E987D98F669B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic", "samples\Basic\Basic.csproj", "{D7ED5194-CE54-47F8-9765-E987D98F669B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
