@@ -1,5 +1,7 @@
 ﻿<Project>
 
+  <Import Project="build\version.props" />
+
   <PropertyGroup>
     <NoWarn>$(NoWarn);1591;1587</NoWarn>
     <Product>MR.AspNetCore.NestedRouting</Product>
